@@ -35,5 +35,18 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AES.cs" />
+    <Compile Include="Base64.cs" />
+    <Compile Include="DES.cs" />
+    <Compile Include="HMAC.cs" />
+    <Compile Include="MD5.cs" />
+    <Compile Include="MD5Crypto.cs" />
+    <Compile Include="RandomString.cs" />
+    <Compile Include="RC2.cs" />
+    <Compile Include="RSA.cs" />
+    <Compile Include="SHA.cs" />
+    <Compile Include="TripleDES.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
